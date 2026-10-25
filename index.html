@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">StudentHub</a>
+
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#activity">Activity</a>
+            <a href="#footer">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome" id="home">
+            <p class="welcome-label">STUDENT PORTAL</p>
+            <h1>Welcome Back, Student!</h1>
+            <p>Manage your courses, assignments and learning progress in one place.</p>
+        </section>
+
+        <section class="dashboard" id="courses">
+            <h2>Your Dashboard</h2>
+
+            <div class="dashboard-cards">
+
+                <article class="card course-card">
+                    <div class="card-icon">📚</div>
+                    <h3>My Courses</h3>
+                    <p>Explore your enrolled courses and learning materials.</p>
+                    <strong>4 Active Courses</strong>
+                    <a href="#activity">View Courses →</a>
+                </article>
+
+                <article class="card assignment-card">
+                    <div class="card-icon">📝</div>
+                    <h3>Assignments</h3>
+                    <p>Keep track of your upcoming academic assignments.</p>
+                    <strong>3 Pending Tasks</strong>
+                    <a href="#activity">View Assignments →</a>
+                </article>
+
+                <article class="card progress-card">
+                    <div class="card-icon">📈</div>
+                    <h3>My Progress</h3>
+                    <p>Review your overall learning progress this semester.</p>
+                    <strong>75% Completed</strong>
+                    <div class="progress-track" role="img"
+                         aria-label="Course progress: 75 percent">
+                        <div class="progress-fill"></div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="activity" id="activity">
+            <h2>Recent Activity</h2>
+
+            <article class="activity-item">
+                <div class="activity-icon">✓</div>
+                <div>
+                    <h3>HTML Assignment</h3>
+                    <p>Your HTML assignment has been completed.</p>
+                </div>
+                <span class="status">Completed</span>
+            </article>
+
+            <article class="activity-item">
+                <div class="activity-icon">!</div>
+                <div>
+                    <h3>CSS Practical</h3>
+                    <p>Remember to finish your CSS practical task.</p>
+                </div>
+                <span class="status pending">Pending</span>
+            </article>
+
+            <article class="activity-item">
+                <div class="activity-icon">i</div>
+                <div>
+                    <h3>College Announcement</h3>
+                    <p>Check your timetable for upcoming classes.</p>
+                </div>
+                <span class="status notice">Notice</span>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="footer" id="footer">
+        <p>© 2026 StudentHub. All rights reserved.</p>
+        <p>Learn Today, Lead Tomorrow.</p>
+    </footer>
+
+</body>
+</html>
